@@ -20,4 +20,4 @@ int main()
    centimeters=100000*dist_cities;
    printf("km in centimeters.  ""%f",centimeters);
 return 0;
-}s
+}
