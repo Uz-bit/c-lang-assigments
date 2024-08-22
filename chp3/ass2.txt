@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+
+    
+    int total_hours,hours=40,overtime_pay,overtime,i;
+    
+    
+for(int i=1;i<=10;i++)
+{
+    printf("Enter your total number of hours for employees.%d \n",i);
+    scanf("%d",&total_hours);
+    
+    if(total_hours>40)
+    {
+       overtime=total_hours-hours;
+       overtime_pay=overtime*12;
+       printf("overtime pay will pay is.  %d\n", overtime_pay);
+    }
+    else
+    {
+        printf("it's not for uhh\n");
+    }
+}
+
+    return 0;
+}
